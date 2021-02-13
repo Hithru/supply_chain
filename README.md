@@ -1,3 +1,4 @@
+Change password for your DB conection at app/config/database.php line 57 (under $root)
 
 TO test Staff login :
 
