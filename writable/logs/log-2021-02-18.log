@@ -1,0 +1,214 @@
+CRITICAL - 2021-02-18 11:30:52 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:31:22 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:32:47 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:32:48 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:33:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:33:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:33:18 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:37:36 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:49:59 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:50:00 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:52:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 11:52:02 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\supply_chain\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\supply_chain\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-02-18 16:35:32 --> Class 'App\Controllers\Staff' not found
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-02-18 16:38:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `staff_i...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_i...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_i...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `staff_i...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(33): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-18 16:38:45 --> Call to undefined function get_header()
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/index', Array, true)
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(56): view('customer/index')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-02-18 16:38:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `staff_i...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_i...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_i...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `staff_i...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(33): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-18 16:39:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `staff_i...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staff_i...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staff_i...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `staff_i...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(33): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-18 16:39:57 --> Call to undefined function get_header()
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/index', Array, true)
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer/index')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 16:44:34 --> Call to undefined function get_header()
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/index', Array, true)
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer/index')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 16:44:40 --> Call to undefined function get_header()
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/index', Array, true)
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer/index')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 16:50:27 --> Invalid file: {0}
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index....')
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/index', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer/index')
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-18 17:10:20 --> Invalid file: {0}
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/index....')
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/index', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer/index')
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-18 18:33:06 --> Invalid file: {0}
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer.php')
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer')
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-18 18:35:13 --> Invalid file: {0}
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer.php')
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(46): view('customer')
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-18 18:42:45 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:43:23 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:43:30 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:43:31 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:43:42 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:49:29 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:50:41 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-18 18:50:42 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

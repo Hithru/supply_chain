@@ -1,0 +1,9 @@
+CRITICAL - 2021-02-25 17:59:16 --> Cannot redeclare App\Controllers\CustomerController::viewHome()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-25 17:59:25 --> Cannot redeclare App\Controllers\CustomerController::viewHome()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-25 17:59:26 --> Cannot redeclare App\Controllers\CustomerController::viewHome()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,228 @@
+ERROR - 2021-02-19 16:27:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:28:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:34:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:34:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:35:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:35:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:36:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:36:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:37:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:37:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:38:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:39:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:40:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:43:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:44:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:44:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:44:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:45:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-19 16:45:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

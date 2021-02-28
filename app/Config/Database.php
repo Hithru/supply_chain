@@ -54,7 +54,7 @@ class Database extends Config
 		'DSN'      => '',
 		'hostname' => 'localhost',
 		'username' => 'root',
-		'password' => 'turtles24',
+		'password' => '',
 		'database' => 'supply',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',

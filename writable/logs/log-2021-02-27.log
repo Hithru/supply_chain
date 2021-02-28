@@ -1,0 +1,537 @@
+CRITICAL - 2021-02-27 09:14:24 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 09:22:29 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewOr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(107): view('customer/viewOr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-27 09:26:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\supply_chain\app\Views\customer\ViewOrders.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewOr...', Array, true)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(107): view('customer/viewOr...', Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-27 11:07:44 --> Call to undefined method App\Models\Customer::getUserProductDetalails
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(101): CodeIgniter\Model->__call('getUserProductD...', Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 11:08:09 --> Call to undefined method App\Models\Customer::getUserProductDetalails
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(101): CodeIgniter\Model->__call('getUserProductD...', Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 11:10:46 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(104): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-27 11:11:11 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(104): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-27 11:12:17 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\supply_chain\app\Views\customer\ViewProducts.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(104): view('customer/viewPr...', Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-27 11:12:19 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\supply_chain\app\Views\customer\ViewProducts.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(104): view('customer/viewPr...', Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-27 11:12:23 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\supply_chain\app\Views\customer\ViewProducts.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(104): view('customer/viewPr...', Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-27 15:12:02 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\supply_chain\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('CustomerControl...')
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('CustomerControl...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 15:17:35 --> Call to a member function getProductDetalails() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 15:17:46 --> Call to a member function getUserOrderDetalails() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 15:17:50 --> Call to a member function getUserOrderDetalails() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 16:52:26 --> Call to undefined method App\Models\Customer::getCustomerDetails
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(106): CodeIgniter\Model->__call('getCustomerDeta...', Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 17:04:29 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\supply_chain\app\Views\customer\ViewProducts.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(109): view('customer/viewPr...', Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-27 17:06:23 --> syntax error, unexpected '{', expecting ')'
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(109): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-27 17:06:33 --> syntax error, unexpected '{', expecting ')'
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(109): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-27 17:06:33 --> syntax error, unexpected '{', expecting ')'
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(109): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-02-27 17:58:18 --> mysqli_sql_exception: Duplicate entry 'sdfsdf@gmail.com' for key 'email' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(87): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 17:58:18 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\supply_chain\app\Views\customer\LoginRegistration.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\supply_chain\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/LoginR...', Array, true)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(88): view('customer/LoginR...')
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-27 17:59:01 --> mysqli_sql_exception: Duplicate entry 'sdfsdf@gmail.com' for key 'email' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(87): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 17:59:12 --> mysqli_sql_exception: Duplicate entry 'darshana.18@cse.mrt.ac.lk' for key 'email' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(87): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 18:03:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`address`) VALUES (100, '2021-02-27', '', 1, 'Open', 'Session')' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(85): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(117): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 18:03:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`address`) VALUES (100, '2021-02-27', '', 1, 'Open', 'Session')' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(85): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(117): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 18:03:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`address`) VALUES (100, '2021-02-27', '', 1, 'Open', 'Session')' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(85): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(117): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 18:06:51 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cust...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cust...')
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(127): spl_autoload_call('App\\Models\\Cust...')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-27 18:07:18 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cust...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cust...')
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(127): spl_autoload_call('App\\Models\\Cust...')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-02-27 18:07:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`address`) VALUES (100, '2021-02-27', '', 1, 'Open', 'Session')' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(85): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(117): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 19:42:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::trans_start()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:42:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:42:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:45:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:47:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:53:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:53:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 19:58:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 20:01:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-27 20:02:31 --> mysqli_sql_exception: Unknown column 'qty' in 'field list' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(98): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 20:20:17 --> mysqli_sql_exception: Unknown column 'qty' in 'field list' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(100): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 20:20:39 --> mysqli_sql_exception: Column 'order_id' cannot be null in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(100): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 20:21:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`supply`.`order_details`, CONSTRAINT `order_details_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`order_id`)) in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(100): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 20:23:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`supply`.`order_details`, CONSTRAINT `order_details_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`)) in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(100): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 20:24:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`supply`.`order_details`, CONSTRAINT `order_details_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`)) in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 20:24:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`supply`.`order_details`, CONSTRAINT `order_details_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`)) in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `or...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(119): App\Models\Customer->Buy(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 20:28:10 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\supply_chain\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('CustomerControl...')
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('CustomerControl...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 20:28:22 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\supply_chain\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('CustomerControl...')
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('CustomerControl...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 22:20:38 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:21:57 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:21:58 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:22:59 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:23:00 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:23:06 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:23:07 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:24:24 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:24:26 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:24:28 --> Call to a member function library() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:24:43 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:24:44 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-27 22:26:31 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(13): App\Controllers\BaseController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-27 22:26:33 --> Cannot call constructor
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(13): App\Controllers\BaseController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,316 @@
+ERROR - 2021-02-24 06:59:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-24 07:01:00 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cust...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cust...')
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(30): spl_autoload_call('App\\Models\\Cust...')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-24 07:01:02 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cust...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cust...')
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(30): spl_autoload_call('App\\Models\\Cust...')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-24 07:02:10 --> Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-24 07:03:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-24 07:03:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-24 07:03:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-24 07:05:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-24 07:25:09 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 07:26:25 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 07:27:28 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 07:29:15 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 07:31:00 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 07:32:04 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 07:32:23 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo('Hithrudealwis@g...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-02-24 07:32:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-24 07:33:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-24 07:33:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-24 07:33:45 --> Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-02-24 07:33:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `custome...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(26): CodeIgniter\Database\BaseConnection->query('SELECT `custome...')
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-24 08:59:14 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-24 08:59:47 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(34): App\Models\Customer->getLoginInfo(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-24 09:17:04 --> Class 'App\Controllers\Session' not found
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-24 09:17:06 --> Class 'App\Controllers\Session' not found
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(908): App\Controllers\CustomerController->__construct()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-24 09:17:18 --> Call to a member function getLoginInfo() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-24 11:27:19 --> Call to a member function register() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-02-24 11:27:51 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(81): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-24 11:28:44 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(81): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-24 11:58:15 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(81): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-24 11:58:32 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `cu...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\supply_chain\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(81): App\Models\Customer->register(Array)
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->register()
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-24 14:24:22 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(97): session_destroy()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->logout()
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-24 14:37:27 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-24 14:37:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-24 14:37:41 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-24 14:37:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-24 14:38:21 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\supply_chain\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('CustomerControl...')
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('CustomerControl...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

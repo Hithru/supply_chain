@@ -1,0 +1,163 @@
+CRITICAL - 2021-02-28 07:48:17 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-28 07:48:39 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->login()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-28 07:49:41 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewOrders()
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-28 09:10:08 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 09:22:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\supply_chain\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('CustomerControl...')
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('CustomerControl...')
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 09:24:09 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(158): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-28 09:24:10 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\supply_chain\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\supply_chain\system\Common.php(1217): CodeIgniter\View\View->render('customer/viewPr...', Array, true)
+#2 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(158): view('customer/viewPr...', Array)
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->viewProducts()
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-28 10:10:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+#0 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#1 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#2 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#3 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-28 10:15:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(109): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-28 10:15:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(109): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-28 10:15:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(109): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-28 10:31:18 --> syntax error, unexpected ')', expecting ']'
+#0 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\supply_chain\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cust...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cust...')
+#3 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(113): spl_autoload_call('App\\Models\\Cust...')
+#4 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-02-28 10:31:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(110): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-28 10:32:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(110): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-28 10:32:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(110): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-28 10:32:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(110): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-28 10:33:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':item_id' at line 1 in C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\supply_chain\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE item SET...')
+#1 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE item SET...')
+#2 C:\xampp\htdocs\supply_chain\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE item SET...')
+#3 C:\xampp\htdocs\supply_chain\app\Models\Customer.php(111): CodeIgniter\Database\BaseConnection->query('UPDATE item SET...', Array)
+#4 C:\xampp\htdocs\supply_chain\app\Controllers\CustomerController.php(137): App\Models\Customer->Buy(Array)
+#5 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(936): App\Controllers\CustomerController->buyProduct()
+#6 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\supply_chain\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\supply_chain\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
