@@ -147,6 +147,24 @@ class CustomerController extends BaseController
         }
     }
 
+    public function cancelOrder() {
+        $session = \Config\Services::session($config);
+        $model = new Customer();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST'){
+            $data = ['order_id'=>$_POST['order_id']];
+
+            if($model->cancelOrder($data)) {
+                print_r("Success");
+                //$this->viewOrders();
+            } else {
+                die('Something went wrong');
+            }
+
+
+        }
+    }
+
     public function viewProducts($data=[]) {
         $session = \Config\Services::session($config);
         $model = new Customer();

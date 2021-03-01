@@ -90,6 +90,7 @@
                         <th>Ship Date</th>
                         <th>Status</th>
                         <th>SubTotal</th>
+                        <th>Operations</th>
                         </thead>
                         <?php
 
@@ -101,6 +102,16 @@
                             <td><?php echo $order['ship_date'] ?></td>
                             <td><?php echo $order['status'] ?></td>
                             <td>Rs. <?php echo $order['total_bill'] ?></td>
+                            <td>
+                                <?php if ($order['status']=="Open") {?>
+                                    <form action="cancelOrder" method="POST">
+                                        <input name="order_id" value="<?php echo $order['order_id'] ?>" hidden>
+                                        <button class='btn btn-sm btn-danger'>Cancel the Order</button>
+                                    </form>
+
+
+                                <?php  }  ?>
+                            </td>
                             </tbody>
                         <?php }
                     }else{?>

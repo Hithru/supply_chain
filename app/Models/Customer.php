@@ -119,4 +119,21 @@ class Customer extends Model
         return true;
     }
 
+    public function cancelOrder($data) {
+        $order_id = $data["order_id"];
+        $status = "Cancel";
+        print_r($order_id);
+
+        $sql = "UPDATE `orders` SET `status` = {$status} WHERE `order_id` = {$order_id}";
+
+        $results = $this->db->query($sql)->getResult();
+        //print_r($results);
+        //$this->db->update('item',$update_data,array('item_id'=>$data['item_id']));
+
+
+
+
+        return true;
+    }
+
 }

@@ -118,7 +118,7 @@ http://www.tooplate.com/view/2095-level
                                 <td><button class='btn btn-sm btn-danger'>Buy Now</button></td>
                             </form>
  <!--                           <td>
-                                <?php /*echo $cart->qty */?>
+
                             </td>
                             <td>
                                 <form class='d-inline' action="<?php /*echo URL */?>/carts/updateQty/<?php /*echo $cart->product */?> " method="POST">
